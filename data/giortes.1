@@ -1,0 +1,93 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.hy
+.TH Giortes 1 "March 21, 2010"
+.SH NAME
+Giortes \- Displays the name day that is celebrated based on the Orthodox Calendar.
+.SH SYNOPSIS
+.B giortes [-h] [-v] [-e] [-a] [-q] [-n [a|p|i|n|h]] [-m [a|p|i]] [-x integer] [-d filename] [-p filename] [-i filename] [-c integer] [-w] [-s] [-f]
+.br
+.SH DESCRIPTION
+.PP
+This program displays the name day celebration
+based on the Orthodox Calendar. It also displays
+events from a personal and international days
+file list and can calculate the Orthodox Easter
+Sunday and the holidays of a year.
+.br
+.SH OPTIONS
+.TP
+.B \-h
+show help
+.TP
+.B \-v
+show version
+.TP
+.B \-e
+calculate Orthodox Easter Sunday
+.TP
+.B \-a
+display year's holidays
+.TP
+.B \-q
+quiet mode, do not show any messages
+.TP
+.B \-n [a|p|i|n|h]
+exclude databases from view (see -n h for more help)
+.TP
+.B \-m [a|p|i] 
+create databases (p:personal, i:international days, a:all)
+.TP
+.B \-x NUM
+check 'NUM' days after current date (default 5)
+.TP
+.B \-d filename
+set the database filename (default database.dat)
+.TP
+.B \-p filename
+set the personal database filename (default personal.dat)
+.TP
+.B \-i filename
+set the international days database filename (default int_days.dat)
+.TP
+.B \-c NUM
+autoexit after 'NUM' seconds (default 30)
+.TP
+.B \-w
+write current settings to options file (~/.giortes/settings)
+.TP
+.B \-s
+ask for a string to search (Greek capital letters)
+.TP
+.B \-f
+ask for a date to search
+.br
+The program is documented fully by
+.IR "George Vasilakos" ,
+available via the Info system.
+.SH AUTHOR
+giortes was written by George Vasilakos.
+.SH REPORTING BUGS
+Report bugs to <forfolias@linuxteam.cs.teilar.gr>
+.SH COPYRIGHT
+Copyright © 2008 George Vasilakos. License GPLv3+: GNU GPL version 3
+or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+.PP
+This manual page was written by George Vasilakos <forfolias@linuxteam.cs.teilar.gr>,
+for the Debian project (but may be used by others).

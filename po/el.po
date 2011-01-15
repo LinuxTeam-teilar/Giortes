@@ -1,0 +1,586 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: giortes 1.1\n"
+"Report-Msgid-Bugs-To: forfolias@linuxteam.cs.teilar.gr\n"
+"POT-Creation-Date: 2010-04-16 23:39+0300\n"
+"PO-Revision-Date: 2010-04-16 22:09+0200\n"
+"Last-Translator: George Vasilakos <forfolias@linuxteam.cs.teilar.gr>\n"
+"Language-Team: Greek <forfolias@linuxteam.cs.teilar.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: src/check.c:129
+#, c-format
+msgid ""
+"\n"
+"Could not locate personal database file with filename <%s>.\n"
+msgstr ""
+"\n"
+"Δεν ήταν δυνατό να βρεθεί η λίστα με τα προσωπικά γεγονότα <%s>.\n"
+
+#: src/check.c:132 src/check.c:167
+#, c-format
+msgid "Would you like to create the list now? (y/n): "
+msgstr "Θέλετε να δημιουργηθεί η λίστα τώρα; (y/n): "
+
+#: src/check.c:140 src/check.c:175
+#, c-format
+msgid "Wrong selection, please try again.\n"
+msgstr "Λάθος επιλογή, προσπαθήστε ξανά.\n"
+
+#: src/check.c:164
+#, c-format
+msgid ""
+"\n"
+"Could not find international days database file with filename <%s>.\n"
+msgstr ""
+"\n"
+"Δεν ήταν δυνατό να βρεθεί η λίστα με τις παγκόσμιες ημέρες <%s>.\n"
+
+#: src/check.c:196 src/interface.c:381
+#, c-format
+msgid "Could not locate file <%s>.\n"
+msgstr "Δεν ήταν δυνατόν να βρεθεί το αρχείο <%s>.\n"
+
+#: src/dates.c:131
+#, c-format
+msgid ""
+"\n"
+"Please enter the number of month: "
+msgstr ""
+"\n"
+"Εισάγετε το μήνα:"
+
+#: src/dates.c:133
+#, c-format
+msgid ""
+"\n"
+"Please enter the number of day: "
+msgstr ""
+"\n"
+"Εισάγετε την ημέρα:"
+
+#: src/dates.c:135
+#, c-format
+msgid ""
+"\n"
+"Please enter the number of year: "
+msgstr ""
+"\n"
+"Εισάγετε το έτος:"
+
+#: src/dates.c:143
+#, c-format
+msgid ""
+"\n"
+"Please, type a number.\n"
+msgstr ""
+"\n"
+"Προσπαθήστε ξανά πληκτρολογώντας έναν αριθμό.\n"
+
+#: src/dates.c:153
+#, c-format
+msgid ""
+"\n"
+"Please, type a valid number (1 to 31)"
+msgstr ""
+"\n"
+"Προσπαθήστε ξανά πληκτρολογώντας έναν έγκυρο αριθμό (μεταξύ 1 και 31)"
+
+#: src/dates.c:158
+#, c-format
+msgid ""
+"\n"
+"Please, type a valid number (1 to 12)"
+msgstr ""
+"\n"
+"Προσπαθήστε ξανά πληκτρολογώντας έναν έγκυρο αριθμό (μεταξύ 1 και 12)"
+
+#: src/dates.c:163
+#, c-format
+msgid ""
+"\n"
+"Please, type a valid number (1901 to 2099)"
+msgstr ""
+"\n"
+"Προσπαθήστε ξανά πληκτρολογώντας έναν έγκυρο αριθμό (μεταξύ 1901 και 2099)"
+
+#: src/dates.c:202
+msgid "April"
+msgstr "Απριλίου"
+
+#: src/dates.c:206
+msgid "May"
+msgstr "Μαΐου"
+
+#: src/help.c:74 src/help.c:87 src/interface.c:132
+#, c-format
+msgid ""
+"\n"
+"Copyright (C) 2010 George Vasilakos <forfolias@linuxteam.cs.teilar.gr>\n"
+"This program is free software: you can redistribute it and/or modify it\n"
+"under the terms of the GNU General Public License version 3 as published\n"
+"by the Free Software Foundation.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along\n"
+"with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+msgstr ""
+"\n"
+"Πνευματικά δικαιώματα (C) 2010 Βασιλάκος Γεώργιος <forfolias@linuxteam.cs."
+"teilar.gr>\n"
+"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό: μπορείτε να το αναδιανείμετε και/"
+"ή\n"
+"τροποποιήσετε κάτω από τους όρους της Γενικής Άδειας Δημόσιας Χρήσης GNU\n"
+"έκδοση 3, όπως αυτή δημοσιεύεται από το Ίδρυμα Ελεύθερου Λογισμικού.\n"
+"\n"
+"Θα πρέπει να έχετε λάβει ένα αντίγραφο της Άδειας Γενικής Δημόσιας Χρήσης "
+"GNU\n"
+"μαζί με το παρόν πρόγραμμα; αν όχι, δείτε στο <http://www.gnu.org/licenses/"
+">.\n"
+
+#: src/interface.c:50 src/interface.c:140
+msgid "Giortes"
+msgstr "Γιορτές"
+
+#: src/interface.c:66
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: src/interface.c:73 src/interface.c:157
+msgid "More..."
+msgstr "Περισσότερα..."
+
+#: src/interface.c:80
+msgid "About"
+msgstr "Περί"
+
+#: src/interface.c:87
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: src/interface.c:125
+msgid ""
+"This program displays the name day celebration\n"
+"based on the Orthodox Calendar. It also displays\n"
+"events from a personal and international days\n"
+"file list and can calculate the Orthodox Easter\n"
+"Sunday and the holidays of a year."
+msgstr ""
+"Εμφανίζει τις ονομαστικές εορτές της ημέρας\n"
+"βάσει του Ορθόδοξου Ημερολογίου. Ακόμη,\n"
+"εμφανίζει γεγονότα απο μία λίστα με προσωπικά\n"
+"γεγονότα και μια λίστα με παγκόσμιες ημέρες.\n"
+"Τέλος, υπολογίζει και εμφανίζει την Κυριακή του\n"
+"Πάσχα και τις αργίες ενός έτους και υποστηρίζει\n"
+"αναζήτηση βάσει ονόματος ή ημερομηνίας."
+
+#: src/interface.c:141
+msgid "Enter translator name here"
+msgstr "Βασιλάκος Γεώργιος <forfolias@linuxteam.cs.teilar.gr>"
+
+#: src/interface.c:160
+msgid "Choose an action from the list"
+msgstr "Επιλέξτε μια ενέργεια από την παρακάτω λίστα:"
+
+#: src/interface.c:167
+msgid "Calculate Easter Sunday..."
+msgstr "Υπολογισμός της Κυριακής του Πάσχα..."
+
+#: src/interface.c:173
+msgid "Calculate year's holidays..."
+msgstr "Υπολογισμός των αργιών ενός έτους..."
+
+#: src/interface.c:179 src/interface.c:301 src/interface.c:767
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: src/interface.c:225
+msgid "Select search type:"
+msgstr "Επιλέξτε τρόπο αναζήτησης:"
+
+#: src/interface.c:229
+msgid "Search by name..."
+msgstr "Αναζήτηση βάσει ονόματος"
+
+#: src/interface.c:231
+msgid "Search by date..."
+msgstr "Αναζήτηση βάσει ημερομηνίας"
+
+#: src/interface.c:253
+msgid "Select year"
+msgstr "Επιλογή έτους"
+
+#: src/interface.c:257
+msgid "Please, insert year: "
+msgstr "Παρακαλώ εισάγετε το έτος:"
+
+#: src/interface.c:305
+msgid "Insert the name you want to search: "
+msgstr "Εισάγετε το όνομα προς αναζήτηση: "
+
+#: src/interface.c:315
+msgid ""
+"The name must be written in Greek CAPITAL characters, it can contain the\n"
+"wildcard character '*' only at the end and must be at least 3 characters "
+"long."
+msgstr ""
+"Το όνομα πρέπει να είναι γραμμένο με Ελληνικούς ΚΕΦΑΛΑΙΟΥΣ χαρακτήρες, \n"
+"μπορεί να περιέχει το χαρακτήρα μπαλαντέρ '*' μόνο στο τέλος και πρέπει να\n"
+"αποτελείται από τουλάχιστον 3 χαρακτήρες."
+
+#: src/interface.c:339
+#, c-format
+msgid ""
+"The file with your personal events <%s> was successfully created.\n"
+"You can edit the file with your preferred text editor to add events."
+msgstr ""
+"Το αρχείο με τα προσωπικά γεγονότα <%s> δημιουργήθηκε επιτυχώς.\n"
+"Μπορείτε να το επεξεργαστείτε με τον text editor της αρεσκίας σας για να "
+"εισάγετε προσωπικά σας γεγονότα."
+
+#: src/interface.c:359
+#, c-format
+msgid ""
+"Could not locate the personal events database file <%s>. Would you like to "
+"create the file now?"
+msgstr ""
+"Δε βρέθηκε το αρχείο με τα προσωπικά γεγονότα <%s>. Θέλετε να δημιουργηθεί "
+"το αρχείο τώρα;"
+
+#: src/interface.c:370
+#, c-format
+msgid ""
+"Could not locate the international days database <%s>. Would you like to "
+"create the file now?"
+msgstr ""
+"Δε βρέθηκε το αρχείο με τις παγκόσμιες ημέρες <%s>. Θέλετε να δημιουργηθεί "
+"το αρχείο τώρα;"
+
+#: src/interface.c:391 src/interface.c:420
+msgid "Create file"
+msgstr "Δημιουργία αρχείου"
+
+#: src/interface.c:392 src/interface.c:421 src/interface.c:503
+#: src/interface.c:520
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: src/interface.c:394 src/interface.c:422
+msgid ""
+"Insert file path or leave the field blank to\n"
+"create the file at the default path.\n"
+"WARNING: If the file already exists it will be overwritten!"
+msgstr ""
+"Εισάγετε τη διαδρομή του αρχείου προς δημιουργία, ή\n"
+"αφήστε κενό το πεδίο για να γίνει βάσει προεπιλογής.\n"
+"ΠΡΟΣΟΧΗ: Αν το αρχείο υπάρχει ήδη θα αντικατασταθεί!"
+
+#: src/interface.c:446
+msgid "Select file"
+msgstr "Επιλογή αρχείου"
+
+#: src/interface.c:473
+msgid "Options"
+msgstr "Προτιμήσεις"
+
+#: src/interface.c:483
+msgid "To activate the modifications you need to restart the program."
+msgstr ""
+"Για να ενεργοποιηθούν οι αλλαγές χρειάζεται επανεκκίνηση του προγράμματος."
+
+#: src/interface.c:489
+msgid "Nameday database file:"
+msgstr "Αρχείο ονομαστικών εορτών:"
+
+#: src/interface.c:506
+msgid "Personal events file:"
+msgstr "Αρχείο προσωπικών γεγονότων:"
+
+#: src/interface.c:523
+msgid "International days file:"
+msgstr "Αρχείο παγκόσμιων ημερών:"
+
+#: src/interface.c:536
+msgid "Display personal events"
+msgstr "Εμφάνιση προσωπικών γεγονότων"
+
+#: src/interface.c:546
+msgid "Display international days"
+msgstr "Εμφάνιση παγκόσμιων ημερών"
+
+#: src/interface.c:559
+msgid "Display events for the next"
+msgstr "Εμφάνιση γεγονότων για τις επόμενες"
+
+#: src/interface.c:564
+msgid "days. Use sparingly."
+msgstr "ημέρες. (Μην το παρακάνετε)"
+
+#: src/interface.c:570
+msgid "Autoexit after"
+msgstr "Αυτόματη έξοδος μετά από"
+
+#: src/interface.c:575
+msgid "seconds. 0 means no autoexit."
+msgstr "δευτερόλεπτα. Το 0 σημαίνει μη αυτόματη έξοδος."
+
+#: src/interface.c:583 src/interface.c:645
+msgid "Could not locate settings file. Click save to create the file."
+msgstr ""
+"Δε βρέθηκε το αρχείο επιλογών. Πατήστε αποθήκευση για να δημιουργηθεί τώρα."
+
+#: src/interface.c:587
+msgid ""
+"Displaying current settings. Press open to view the\n"
+"settings on the settings file."
+msgstr ""
+"Εμφανίζονται οι τρέχουσες ρυθμίσεις. Πατήστε άνοιγμα\n"
+"για να εμφανιστούν αυτές του αρχείου ρυθμίσεων."
+
+#: src/interface.c:596
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: src/interface.c:600
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: src/interface.c:604
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: src/interface.c:635
+msgid "Settings were successfully saved at file: "
+msgstr "Οι επιλογές αποθηκεύθηκαν επιτυχώς στο αρχείο: "
+
+#: src/interface.c:652
+msgid "Settings were successfully read from file: "
+msgstr "Οι επιλογές διαβάστηκαν επιτυχώς από το αρχείο: "
+
+#: src/interface.c:677
+#, c-format
+msgid "Orthodox Easter Sunday of year %d is on %d of %s"
+msgstr "Το Ορθόδοξο Πάσχα το έτος %d πέφτει στις %d %s"
+
+#: src/interface.c:678
+msgid "Calculate Easter"
+msgstr "Υπολογισμός Πάσχα"
+
+#: src/interface.c:687
+#, c-format
+msgid "Holidays of year %d:"
+msgstr "Αργίες του έτους %d:"
+
+#: src/interface.c:772
+msgid "Select the month and day you want to search: "
+msgstr "Επιλέξτε το μήνα και την ημέρα προς αναζήτηση: "
+
+#: src/interface.c:778
+msgid "Month:"
+msgstr "Μήνας:"
+
+#: src/interface.c:786
+msgid "Day:"
+msgstr "Ημέρα:"
+
+#: src/interface.c:802
+msgid "Invalid date, please try again."
+msgstr "Μη έγκυρη ημερομηνία, προσπαθήστε ξανά."
+
+#: src/main.c:113
+#, c-format
+msgid "Wrong argument at -n option\n"
+msgstr "Υπάρχει λάθος στο όρισμα -n\n"
+
+#: src/main.c:161
+#, c-format
+msgid ""
+"\n"
+"Very big number at argument -x\n"
+"Changing to %d\n"
+msgstr ""
+"\n"
+"Πολύ μεγάλος αριθμός στο όρισμα -x\n"
+"Αλλαγή σε %d\n"
+
+#: src/main.c:165
+#, c-format
+msgid "Can't check %d days later. Changing to 5\n"
+msgstr "Αδύνατη η εμφάνιση %d μέρες μπροστά. Αλλαγή σε 5\n"
+
+#: src/main.c:176
+#, c-format
+msgid ""
+"\n"
+"Very big number at argument -c\n"
+"Changing to %d\n"
+msgstr ""
+"\n"
+"Πολύ μεγάλο νούμερο στο όρισμα -c\n"
+"Αλλαγή σε %d\n"
+
+#: src/main.c:180
+#, c-format
+msgid "Could not autoexit after %d seconds. Changing to 30\n"
+msgstr "Αδύνατο το αυτόματο κλείσιμο μετά από %d δεθτερόλεπτα. Αλλαγή σε 30\n"
+
+#: src/main.c:201
+#, c-format
+msgid "Enter the name you are searching: "
+msgstr "Εισάγετε το όνομα προς αναζήτηση: "
+
+#: src/options.c:53
+#, c-format
+msgid "Could not locate settings file\n"
+msgstr "Δεν ήταν δυνατόν να βρεθεί το αρχείο ρυθμίσεων.\n"
+
+#: src/options.c:54
+#, c-format
+msgid "Creating folder: %s\n"
+msgstr "Δημιουργείται ο κατάλογος: %s\n"
+
+#: src/options.c:61 src/options.c:63
+#, c-format
+msgid "Creating file: %s\n"
+msgstr "Δημιουργείται το αρχείο: %s\n"
+
+#: src/options.c:65
+#, c-format
+msgid "Saving options: %s\n"
+msgstr "Αποθήκευση των ρυθμίσεων: %s\n"
+
+#: src/options.c:101
+#, c-format
+msgid "Invalid value at quiet setting in options file: %s\n"
+msgstr "Μη έγκυρη τιμή του quiet στο αρχείο ρυθμίσεων: %s\n"
+
+#: src/options.c:113
+#, c-format
+msgid ""
+"Very big number at show_X_next_days setting in options file: %s\n"
+"Changing to %d\n"
+msgstr ""
+"Πολύ μεγάλος αριθμός στο show_X_next_days στο αρχείο ρυθμίσεων: %s\n"
+"Αλλαγή σε %d\n"
+
+#: src/options.c:121
+#, c-format
+msgid "Invalid value at show_X_next_days setting in options file: %s\n"
+msgstr "Μη έγκυρη τιμή του show_X_next_days στο αρχείο ρυθμίσεων: %s\n"
+
+#: src/options.c:163
+#, c-format
+msgid "Invalid value at show_personal_database setting in options file: %s\n"
+msgstr "Μη έγκυρη τιμή του show_personal_database στο αρχείο ρυθμίσεων: %s\n"
+
+#: src/options.c:181
+#, c-format
+msgid ""
+"Invalid value at show_international_days_database setting in options file: %"
+"s\n"
+msgstr ""
+"Μη έγκυρη τιμή του show_international_days_database στο αρχείο ρυθμίσεων: %"
+"s\n"
+
+#: src/options.c:189
+#, c-format
+msgid ""
+"Unknown settings in your options file:\n"
+"%s\n"
+msgstr ""
+"Μη έγκυρες ρυθμίσεις στο στο αρχείο ρυθμίσεων:\n"
+"%s\n"
+
+#: src/print.c:33
+#, c-format
+msgid "Today:"
+msgstr "Σήμερα: "
+
+#: src/print.c:37
+#, c-format
+msgid "Tomorrow:"
+msgstr "Αύριο: "
+
+#: src/print.c:41
+#, c-format
+msgid "Two days after: "
+msgstr "Μεθαύριο: "
+
+#: src/print.c:45
+#, c-format
+msgid "On %d/%d: "
+msgstr "Στις %d/%d: "
+
+#: src/search.c:65 src/search.c:111 src/search.c:250
+#, c-format
+msgid "Could not locate database file with name <%s>.\n"
+msgstr "Δε βρέθηκε η βάση δεδομένων των εορτών <%s>.\n"
+
+#: src/search.c:167 src/search.c:170 src/search.c:296 src/search.c:299
+#, c-format
+msgid ""
+"\n"
+"Search returned no results.\n"
+"\n"
+msgstr ""
+"\n"
+"Η αναζήτηση δεν είχε αποτελέσματα.\n"
+"\n"
+
+#: src/search.c:216
+#, c-format
+msgid "Please try again.\n"
+msgstr "Παρακαλώ, προσπαθήστε ξανά.\n"
+
+#~ msgid ""
+#~ "Insert the path of the file or keep it blank to\n"
+#~ "create the file at the default path.\n"
+#~ "WARNING: If the file already exists it will be overwritten!"
+#~ msgstr ""
+#~ "Εισάγετε τη διαδρομή του αρχείου προς δημιουργία, ή\n"
+#~ "αφήστε κενό το πεδίο για να γίνει βάσει προεπιλογής.\n"
+#~ "ΠΡΟΣΟΧΗ: Αν το αρχείο υπάρχει ήδη θα αντικατασταθεί!"
+
+#~ msgid "translator-credits"
+#~ msgstr "Μεταφραστές"
+
+#~ msgid "(c) George Vasilakos"
+#~ msgstr "(c) Βασιλάκος Γεώργιος"
+
+#~ msgid "More"
+#~ msgstr "Περισσότερα"
+
+#~ msgid ""
+#~ "\n"
+#~ "Copyright (c) 2010 Vasilakos Georgios (forfolias@linuxteam.cs.teilar."
+#~ "gr).\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Copyright (c) 2010 Βασιλάκος Γεώργιος (forfolias@linuxteam.cs.teilar."
+#~ "gr).\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Giortes version %s\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Γιορτές έκδοση %s\n"
+
+#~ msgid ""
+#~ "Copyright (c) 2010 Vasilakos Georgios (forfolias@linuxteam.cs.teilar."
+#~ "gr).\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Copyright (c) 2010 Βασιλάκος Γεώργιος (forfolias@linuxteam.cs.teilar."
+#~ "gr).\n"
+#~ "\n"

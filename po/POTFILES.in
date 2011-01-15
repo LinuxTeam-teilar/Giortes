@@ -1,0 +1,9 @@
+# List of source files which contain translatable strings.
+src/check.c
+src/dates.c
+src/help.c
+src/interface.c
+src/main.c
+src/options.c
+src/print.c
+src/search.c
